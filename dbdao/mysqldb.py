@@ -3,6 +3,7 @@ from datetime import datetime
 from mysql.connector import Error
 from config.config import dbconfig
 import csv
+import time
 
 class mysqldb:
     __conn = None
@@ -48,6 +49,7 @@ class mysqldb:
                 row = self.__cursor.fetchone()
 
         f.close()
+        time.sleep(2)
 
     def close(self):
         self.__conn.close();

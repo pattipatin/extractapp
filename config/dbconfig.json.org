@@ -1,0 +1,14 @@
+{
+    "salesdbmysql":{
+        "host":"msqlserver",
+        "user":"root",
+        "password":"password",
+        "db":"salesdb"
+    },
+    "invdbmaria":{
+        "host":"localhost",
+        "user":"np",
+        "password":"password",
+        "db":"inventdb"
+    }
+}
